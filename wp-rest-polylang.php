@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: WP REST - Polylang
+ * Plugin Name: WP REST - Polylang - Stylers
  * Description: Polylang integration for the WP REST API
  * Author: Marc-Antoine Ruel
  * Author URI: https://www.marcantoineruel.com
- * Version: 1.0.0
- * Plugin URI: https://github.com/maru3l/wp-rest-polylang
+ * Version: 1.0.1
+ * Plugin URI: https://github.com/stylers-llc/wp-rest-polylang
  * License: gpl-3.0
  */
 

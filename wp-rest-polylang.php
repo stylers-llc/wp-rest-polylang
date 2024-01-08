@@ -32,7 +32,7 @@ class WP_REST_polylang
 		return self::$instance;
 	}
 
-	public static function init() {
+	public function init() {
 		global $polylang;
 
 		if (isset($_GET['lang'])) {
@@ -45,7 +45,7 @@ class WP_REST_polylang
 
 		foreach( $post_types as $post_type ) {
 			if (pll_is_translated_post_type( $post_type )) {
-				self::register_api_field($post_type);
+				$this->register_api_field($post_type);
 			}
 		}
 	}
